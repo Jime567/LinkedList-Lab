@@ -651,55 +651,55 @@ void part7() {
 
     delete list;
 }
-
-int main(int argc, char* argv[]) {
-    if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " [TEST]" << std::endl;
-        std::cerr << "where TEST is one of 1, 2, 3, 4, 5, 6, 7, or all" << std::endl;
-        return 1;
-    }
-
-    std::string test = argv[1];
-
-    if (test == "1") {
-        part1();
-    } else if (test == "2") {
-        part2();
-    } else if (test == "3") {
-        part3();
-    } else if (test == "4") {
-        part4();
-    } else if (test == "5") {
-        part5();
-    } else if (test == "6") {
-        part6();
-    } else if (test == "7") {
-        part7();
-    } else if (test == "all") {
-        part1();
-
-        std::cout << "\n\n";
-        part2();
-
-        std::cout << "\n\n";
-        part3();
-
-        std::cout << "\n\n";
-        part4();
-
-        std::cout << "\n\n";
-        part5();
-
-        std::cout << "\n\n";
-        part6();
-
-        std::cout << "\n\n";
-        part7();
-    } else {
-        std::cerr << test << " is not a valid test to run. The valid options are 1, 2, 3, 4, 5, 6, 7, and all"
-            << std::endl;
-        return 1;
-    }
-
-    return 0;
-}
+//
+//int main(int argc, char* argv[]) {
+//    if (argc < 2) {
+//        std::cerr << "Usage: " << argv[0] << " [TEST]" << std::endl;
+//        std::cerr << "where TEST is one of 1, 2, 3, 4, 5, 6, 7, or all" << std::endl;
+//        return 1;
+//    }
+//
+//    std::string test = argv[1];
+//
+//    if (test == "1") {
+//        part1();
+//    } else if (test == "2") {
+//        part2();
+//    } else if (test == "3") {
+//        part3();
+//    } else if (test == "4") {
+//        part4();
+//    } else if (test == "5") {
+//        part5();
+//    } else if (test == "6") {
+//        part6();
+//    } else if (test == "7") {
+//        part7();
+//    } else if (test == "all") {
+//        part1();
+//
+//        std::cout << "\n\n";
+//        part2();
+//
+//        std::cout << "\n\n";
+//        part3();
+//
+//        std::cout << "\n\n";
+//        part4();
+//
+//        std::cout << "\n\n";
+//        part5();
+//
+//        std::cout << "\n\n";
+//        part6();
+//
+//        std::cout << "\n\n";
+//        part7();
+//    } else {
+//        std::cerr << test << " is not a valid test to run. The valid options are 1, 2, 3, 4, 5, 6, 7, and all"
+//            << std::endl;
+//        return 1;
+//    }
+//
+//    return 0;
+//}
